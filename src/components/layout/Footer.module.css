@@ -1,0 +1,107 @@
+/* Footer main styling */
+.footer {
+    background-color:  #f3b2ab; /* Soft orange */
+    padding: 2rem 0;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Container for all footer content */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 1.5rem;
+  }
+  
+  /* Logo and tagline */
+  .logoSection {
+    flex: 1 1 200px;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    color:#d35400;
+    margin: 0;
+  }
+  
+  .tagline {
+    font-size: 1rem;
+    color: black;
+  }
+  
+  /* Links section */
+  .linksSection {
+    flex: 1 1 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    transition: color 0.3s;
+  }
+  
+  .link:hover {
+    color: #e67e22; /* Darker orange */
+  }
+  
+  /* Social media section */
+  .socialSection {
+    flex: 1 1 200px;
+    text-align: center;
+  }
+  
+  .socialText {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .socialLink {
+    color: #333;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    font-size: 1rem;
+    transition: color 0.3s;
+    font-weight: bold;
+  }
+  
+  .socialLink:hover {
+    color: #e67e22;
+  }
+  
+  /* Contact section */
+  .contactSection {
+    flex: 1 1 200px;
+    text-align: left;
+    color: #d35400;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  /* Copyright text */
+  .copyright {
+    font-size: 0.9rem;
+    color: black;
+    margin-top: 1.5rem;
+    font-weight: bolder;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contactSection {
+      text-align: center;
+    }
+  }
+  

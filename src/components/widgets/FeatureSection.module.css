@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  background-color: #ffe4e1; /* Light pink background */
+  padding: 2rem;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem auto;
+  max-width: 1200px;
+  max-height: 1000px;
+}
+/* Image div */
+.imageDiv {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Text div */
+.textDiv {
+  flex: 1;
+  color: #333;
+  text-align: left;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bolder;
+  color: #d35400; /* Darker orange for title */
+}
+
+.description {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
